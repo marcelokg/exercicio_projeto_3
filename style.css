@@ -1,0 +1,131 @@
+
+h2,h3{
+    font-family: 'Anton', sans-serif;
+}
+
+header{
+    background-color:rgb(31, 30, 30);
+    padding: 100px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FA6200;
+}
+
+.nav .nav-item .nav-link{
+    color: #fff;
+}
+
+.text-color-ps5 span{
+    font-weight: bold;
+    color: #0615f0;
+}
+
+.text-color-xbox span{
+    font-weight: bold;
+    color: #0b4b02;
+}
+
+.text-color-nintendo span{
+    font-weight: bold;
+    color: #f01606;
+}
+
+.text-play{
+    color: #0615f0;
+    font-family: 'Zrnic', sans-serif;
+}
+
+.text-xbox{
+    color: #0b4b02;
+    font-family: 'X360 by Redge', sans-serif;
+}
+
+.text-nintendo{
+    color: #f01606;
+    font-family: 'Nintendo Switch UI', sans-serif;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 540px;
+    filter: brightness(0.2);
+}
+
+.redes-sociais li{
+    list-style: none;
+    display: inline;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}
+
+.text-color{
+    color: #FA6200;
+}
+
+#games-play h2{
+    font-size: 40px;
+    padding-top: 30px;
+    border-bottom: 2px solid #0615f0;
+}
+
+#games-xbox h2{
+    font-size: 38px;
+    border-bottom: 2px solid #0b4b02;
+}
+
+#games-xbox, #games-nintendo{
+    margin-top: 80px;
+}
+
+#games-nintendo h2{
+    font-size: 38px;
+    padding-top: 30px;
+    border-bottom: 2px solid #f01606;
+}
+
+#games-nintendo{
+    padding-bottom: 100px;
+}
+
+.card{
+    border: none;
+}
+
+.card-body img{
+    height: 290px;
+}
+
+.card-body span{
+    font-size: 14px;
+    color: rgb(80, 78, 78);
+}
+
+.card-body h5{
+    color: black;
+}
+
+footer{
+    background-color:rgb(31, 30, 30)
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .card-body img{
+        display: flex;
+        margin: auto;
+    }
+
+    .card-body a{
+        display: flex;
+        width: 46%;
+        margin: auto;
+    }
+}
